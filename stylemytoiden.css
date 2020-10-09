@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 500px;
+    height: 200px;
+    margin: 20px auto;
+}
+.menu{
+    width: 100%;
+    height: 100px;
+    
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu ul  {
+list-style: none;
+}
+.menu ul li{
+    color: #2d2d2d;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    display: block;
+    float: left;
+  padding: 0 50px;
+    line-height: 100px;
+}
+.menu{
+    margin-bottom: 50px;}
+ .product-detail{ width: 100%;
+    min-height: auto;
+    margin: 50px 0px;
+    
+
+ }
+ .product-detail-image{
+     display: flex;
+     justify-content: space-between;
+     width:100%;
+     min-height: auto;
+     
+background-repeat: no-repeat;
+background-size: contain;
+
+ }
+ .image-toi-den{
+     width: 30%;
+     height: 600px;
+
+ }
+ .product-detail-introduce{
+     margin: 50px 50px;
+     
+      min-width:250px ;
+      
+ }
+ .quytrinh{
+    margin: 50px 50px;
+    min-width:250px ;
+    
+ }
+ .product-detail-image :hover{
+     transform: scale(0.5);
+     transition-duration: 3s;
+ }
